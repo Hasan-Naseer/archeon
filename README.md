@@ -1,4 +1,4 @@
-# NeRF Video-to-3D Model Generation App
+# Archeon
 
 This project converts videos into 3D models using Neural Radiance Fields (NeRF). The service is exposed via a FastAPI app, and the generated 3D models can be rendered in-app.
 
