@@ -18,10 +18,21 @@ This project converts videos into 3D models using Neural Radiance Fields (NeRF).
 - `notebooks/`: Jupyter notebooks for development and fine-tuning.
 - `static/3d_models/`: Generated 3D models are stored here.
 
-## Setup
+## Getting Started
 
-1. Clone the repository:
+1. Create a folder named fyp
+2. Open folder in visual studio code
+3. connect your github account to vs code
+4. open terminal
+5. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nerf-video-to-3d-app.git
-   cd nerf-video-to-3d-app
+   git clone https://github.com/your-username/archeon.git
+   cd archeon
+   ```
+6. make and start virtual environment and install requirements:
+   ```bash
+   python -m venv archeonvenv
+   set-executionpolicy -scope process -executionpolicy bypass
+   ./archeovenv/Scripts/activate
+   pip install -r requirements.txt
    ```
