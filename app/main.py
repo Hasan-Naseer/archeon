@@ -10,7 +10,7 @@ async def upload_video(file: UploadFile = File(...)):
     video_path = f"static/videos/{file.filename}"
     with open(video_path, "wb") as buffer:
         buffer.write(await file.read())
-    
+    jj
     # Call the service to generate 3D model
     model_output = generate_3d_model(video_path)
     
